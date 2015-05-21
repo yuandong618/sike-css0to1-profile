@@ -153,7 +153,7 @@ See: http://www.sitepoint.com/web-foundations/doctypes/
             <img src="img/linkedin-icon.png" alt="">
             <p>Twitter</p>
           </li>
-          <li>
+          <li class="clearfix">
             <img src="img/email-icon.png" alt="">
             <p>Twitter</p>
           </li>
@@ -165,13 +165,23 @@ See: http://www.sitepoint.com/web-foundations/doctypes/
           <h2>Or...Leave a Message</h2>
         </header>
         <form action="">
-          <label for="name">Name</label>
-          <input name="name" id="name" type="text">
-          <label for="email">Email</label>
-          <input name="email" id="email" type="email">
-          <label for="message">Message</label>
-          <textarea name="message" id="message"></textarea>
-          <button type="submit">Submit</button>
+          <ul id="contact-list">
+            <li >
+              <label for="name">Name</label>
+              <input name="name" id="name" type="text">
+            </li>
+            <li >
+              <label for="email">Email</label>
+              <input name="email" id="email" type="email">
+            </li>
+            <li >
+              <label for="message">Message</label>
+              <textarea name="message" id="message"></textarea>
+           </li>
+           <li >
+            <button type="submit">Submit</button>
+          </li>
+        </ul>
         </form>
       </section>
 
