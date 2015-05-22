@@ -210,7 +210,7 @@ ul.education-experience__list li {
 	margin-right: 10px;
 	text-align: right;
 	right: 100%;
-	width: 25%;
+	width: 100px;
 }
 
 .contact button {
@@ -238,4 +238,57 @@ ul.education-experience__list li {
 	width: 100%;
 }
 
+@media only screen and (max-width : 480px) {
+	.container {
+		width: 100%;
+	}
 
+	.main-header h1 {
+		font-size: 32px;
+	}
+
+	.main-nav ul {
+		overflow: hidden;
+	}
+
+	.main-nav ul li {
+		display: block;
+	}
+
+	.info-section {
+		padding: 10px;
+	}
+
+	ul li.whatido__skill {
+		width: 100%;
+		margin-bottom: 40px;
+	}
+
+	.education-experience__list li img {
+		display: block;
+		float: none;
+		margin: 0 auto;
+	}
+
+	.education-experience header h2 span {
+		display: block;
+	}
+
+	.photos__list li {
+		display: block;
+		width: 100%;
+		float: none;
+	}
+
+	.get-in-touch__list li {
+		width: 50%;
+	}
+
+	.contact form {
+		width: 100%;
+	}
+	
+	.contact label {
+		position: static;
+	}
+}
