@@ -21,7 +21,7 @@ It should open the url `http://localhost:4000` immediately. Editing index.html o
 
 ---
 
-You may meet error like ` command not found: browser-sync` ,dont't panic,here provides two solution.
+You may meet error like ` command not found: browser-sync` ,don't panic,here provides two solutions.
 
 - `npm install -g browser-sync`   globally install  browser-sync
 - `export PATH=$PATH:./node_modules/.bin` in current project dir
